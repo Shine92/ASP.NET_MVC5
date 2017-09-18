@@ -1,0 +1,12 @@
+﻿@model test0918_Controls.Controllers.CMember
+@{
+    ViewBag.Title = "Hello";
+}
+
+<h2>Hello</h2>
+<form method="post" action="/Lab/Hello">
+    <input type="text" name="FirstName" value="@Model.FirstName"/><br />
+    <input type="text" name="LastName" value="@Model.LastName"/><br />
+    <input type="submit" value="OK" />
+</form>
+
